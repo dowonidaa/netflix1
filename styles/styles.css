@@ -17,13 +17,12 @@ body{
 
 .movies{
   
-  justify-content: space-between;
   display: flex;
+  justify-content: space-between;
   margin-bottom: 10px;
   margin-left: 10px;
   overflow-x: auto;
   padding: 20px;
-  
   
 }
 
@@ -40,7 +39,7 @@ body{
 
 
 .movie:hover{
-  transform: scale(1.05);
+  transform: scale(1.1);
   border-radius: 5px;
   border: 3px solid #ffffff;
   
@@ -125,6 +124,6 @@ body{
     left: 0; 
     width: 100%; 
     height: 20%; 
-    background: linear-gradient(180deg, transparent,  rgba(37, 37, 37, 0.61), #111);
+    background: linear-gradient(180deg, transparent, rgba(37, 37, 37, 0.6), #111);
 }
 
